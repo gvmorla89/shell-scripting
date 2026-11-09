@@ -2,4 +2,4 @@
 
 # Special Variables
 
-echo "All arguments Passed to script : $@"
+echo "All arguments Passed to script : "
