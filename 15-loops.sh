@@ -23,4 +23,5 @@ validate(){
 for package in $@
 do
    echo "Going to install: ${package}"
+   validate $? "Installing ${package}"
 done
