@@ -8,9 +8,9 @@ if [$user_id -ne 0]; then
 fi
 
 echo "Proceeding ........"
-dnf install nginx -y
+dnf install nginxx -y
 
-if[$? -ne 0]; then
+if [$? -ne 0]; then
     echo "Ngnix installation failed"
     exit 1
 else
@@ -18,7 +18,7 @@ else
 fi
 dnf install mysqlll -y
 
-if[$? -ne 0]; then
+if [$? -ne 0]; then
     echo "Mysql installation failed"
     exit 1
 else
